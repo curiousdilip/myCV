@@ -500,6 +500,8 @@ section.partners .brands__wrapper {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    opacity: 0.5;
+    /* filter: invert(100%); */
 }
 
 section.contact .wrapper {
