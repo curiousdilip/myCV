@@ -13,8 +13,8 @@
     --mild : #8997bd;
     --footer : #212A4A;
     --black:#060b1b;
-    --twitter: #4ac7ec;
-    --dribbble : #ff5da0;
+    --github: #000000;
+    --linkedin : #2867B2;
     --success : #1ecab8;
     --danger : #f1646c;
     --dark-blue : #28365f;
@@ -177,15 +177,15 @@ section.profile .right ul.socials li a {
 }
 
 section.profile .right ul.socials li:nth-child(1) a {
-    background:var(--secondary);
+    background:#000000;
 }
 
 section.profile .right ul.socials li:nth-child(2) a {
-    background:var(--twitter);
+    background:var(--github);
 }
 
 section.profile .right ul.socials li:nth-child(3) a {
-    background:var(--dribbble);
+    background:var(--linkedin);
 }
 
 .section__heading {
