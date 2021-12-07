@@ -20,3 +20,10 @@ ExpiresByType application/x-shockwave-flash "access plus 1 month"
 ExpiresByType image/x-icon "access plus 1 year"
 ExpiresDefault "access plus 2 days"
 ## EXPIRES CACHING ##
+
+
+Header always append X-Frame-Options DENY
+Header set X-Content-Type-Options nosniff
+Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload" env=HTTPS
+Header always set X-XSS-Protection "1; mode=block"
+Header set Content-Security-Policy "script-src 'unsafe-inline' 'unsafe-eval' http: https:"
